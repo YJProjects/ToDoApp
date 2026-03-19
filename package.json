@@ -1,0 +1,22 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "<h1> ToDoApp </h1> A clean, minimal to-do app to manage tasks and track progress while staying organized. <hr>  <h4 style=\"margin-bottom:0;\">Tech Stack:</h4> <ol> <li> Backend : NodeJs </li> <li> Frontend : Vite + React </li> <li> Database : FireBase + NoSQL </li> </ol> <hr>  <h4 style=\"margin-bottom:0;\">Intended Features:</h4> <ul> <li> Add remove edit and filter tasks intuitively </li> <li> Save data per user in backend based on login/signup </li> <li> Securing data so it cannot be leaked </li> </ul> <hr> <h3>How to run locally: </h3> # To do!",
+  "homepage": "https://github.com/YJProjects/ToDoApp#readme",
+  "bugs": {
+    "url": "https://github.com/YJProjects/ToDoApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YJProjects/ToDoApp.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && nodemon index.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  }
+}

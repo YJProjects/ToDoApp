@@ -1,0 +1,40 @@
+.navbarContainer {
+
+    display: flex;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 3px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.navbarContainer .githubLink {
+
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.navbarContainer .githubLink .githubLogo {
+
+    height: 25px;
+    width: 25px;
+}
+
+.navbarContainer .heading {
+    flex: 1;
+    text-align: center;
+}
+
+.navbarContainer .rightGroup {
+    display: flex ;
+}
+
+.navbarContainer .rightGroup .signUp {
+    margin-right: 30px;
+}
+
+.navbarContainer .rightGroup .logIn {
+    margin-right: 20px;
+}
